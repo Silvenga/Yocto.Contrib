@@ -1,6 +1,6 @@
 [submodule "vendor/yoctolib_cs"]
 	path = vendor/yoctolib_cs
-	url = https://github.com/yoctopuce/yoctolib_cs
+	url = https://github.com/Silvenga/yoctolib_cs.git
 [submodule "vendor/yoctolib_python"]
 	path = vendor/yoctolib_python
 	url = https://github.com/yoctopuce/yoctolib_python.git
