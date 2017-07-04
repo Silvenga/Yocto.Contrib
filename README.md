@@ -2,7 +2,7 @@
 
 Provides .Net Standard packaging for Yoctopuce libraries. This includes the native library and the provided source code to access it (e.g. `YSensor`, `YLightSensor`, etc.). 
 
-[![Build status](https://img.shields.io/nuget/v/Yocto.Contrib.svg?maxAge=2592000&style=flat-square)](https://ci.appveyor.com/project/Silvenga/yocto-contrib)
+[![Nuget](https://img.shields.io/nuget/v/Yocto.Contrib.svg?maxAge=2592000&style=flat-square)](https://www.nuget.org/packages/Yocto.Contrib/)
 [![Build status](https://img.shields.io/appveyor/ci/Silvenga/yocto-contrib.svg?maxAge=2592000&style=flat-square)](https://ci.appveyor.com/project/Silvenga/yocto-contrib)
 [![License](https://img.shields.io/github/license/Silvenga/Yocto.Contrib.svg?style=flat-square)](https://github.com/Silvenga/Yocto.Contrib/blob/master/LICENSE)
 
