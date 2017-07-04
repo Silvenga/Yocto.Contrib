@@ -1,7 +1,96 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_accelerometer.cs" Link="yocto_accelerometer.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_altitude.cs" Link="yocto_altitude.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_anbutton.cs" Link="yocto_anbutton.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_api.cs" Link="yocto_api.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_audioin.cs" Link="yocto_audioin.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_audioout.cs" Link="yocto_audioout.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_bluetoothlink.cs" Link="yocto_bluetoothlink.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_bridgecontrol.cs" Link="yocto_bridgecontrol.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_buzzer.cs" Link="yocto_buzzer.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_carbondioxide.cs" Link="yocto_carbondioxide.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_cellular.cs" Link="yocto_cellular.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_colorled.cs" Link="yocto_colorled.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_colorledcluster.cs" Link="yocto_colorledcluster.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_compass.cs" Link="yocto_compass.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_current.cs" Link="yocto_current.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_currentloopoutput.cs" Link="yocto_currentloopoutput.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_daisychain.cs" Link="yocto_daisychain.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_datalogger.cs" Link="yocto_datalogger.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_digitalio.cs" Link="yocto_digitalio.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_display.cs" Link="yocto_display.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_dualpower.cs" Link="yocto_dualpower.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_files.cs" Link="yocto_files.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_genericsensor.cs" Link="yocto_genericsensor.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_gps.cs" Link="yocto_gps.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_groundspeed.cs" Link="yocto_groundspeed.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_gyro.cs" Link="yocto_gyro.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_hubport.cs" Link="yocto_hubport.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_humidity.cs" Link="yocto_humidity.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_latitude.cs" Link="yocto_latitude.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_led.cs" Link="yocto_led.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_lightsensor.cs" Link="yocto_lightsensor.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_longitude.cs" Link="yocto_longitude.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_magnetometer.cs" Link="yocto_magnetometer.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_messagebox.cs" Link="yocto_messagebox.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_motor.cs" Link="yocto_motor.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_multiaxiscontroller.cs" Link="yocto_multiaxiscontroller.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_network.cs" Link="yocto_network.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_oscontrol.cs" Link="yocto_oscontrol.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_power.cs" Link="yocto_power.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_poweroutput.cs" Link="yocto_poweroutput.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_pressure.cs" Link="yocto_pressure.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_proximity.cs" Link="yocto_proximity.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_pwminput.cs" Link="yocto_pwminput.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_pwmoutput.cs" Link="yocto_pwmoutput.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_pwmpowersource.cs" Link="yocto_pwmpowersource.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_quadraturedecoder.cs" Link="yocto_quadraturedecoder.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_rangefinder.cs" Link="yocto_rangefinder.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_realtimeclock.cs" Link="yocto_realtimeclock.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_refframe.cs" Link="yocto_refframe.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_relay.cs" Link="yocto_relay.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_segmenteddisplay.cs" Link="yocto_segmenteddisplay.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_serialport.cs" Link="yocto_serialport.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_servo.cs" Link="yocto_servo.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_spiport.cs" Link="yocto_spiport.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_steppermotor.cs" Link="yocto_steppermotor.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_temperature.cs" Link="yocto_temperature.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_tilt.cs" Link="yocto_tilt.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_voc.cs" Link="yocto_voc.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_voltage.cs" Link="yocto_voltage.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_wakeupmonitor.cs" Link="yocto_wakeupmonitor.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_wakeupschedule.cs" Link="yocto_wakeupschedule.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_watchdog.cs" Link="yocto_watchdog.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_wireless.cs" Link="yocto_wireless.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj-->
+    <!--https://github.com/aspnet/libuv-package/blob/dev/src/Libuv/project.json-->
+    <!--https://github.com/dotnet/corefx/blob/master/pkg/Microsoft.NETCore.Platforms/runtime.json-->
+
+    <None Include="../../vendor/yoctolib_cs/Sources/dll/amd64/yapi.dll" Pack="true" PackagePath="runtimes/win-x64/native/yapi.dll" />
+    <None Include="../../vendor/yoctolib_cs/Sources/dll/yapi.dll" Pack="true" PackagePath="runtimes/win-x86/native/yapi.dll" />
+
+    <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi.dylib" Pack="true" PackagePath="runtimes/osx/native/yapi.dylib" />
+
+    <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi-amd64.so" Pack="true" PackagePath="runtimes/linux-x64/native/yapi.so" />
+    <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi-i386.so" Pack="true" PackagePath="runtimes/linux-x86/native/yapi.so" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Thread" Version="4.3.0" />
+  </ItemGroup>
 
 </Project>
