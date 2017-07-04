@@ -1,0 +1,3 @@
+[submodule "vendor/yoctolib_cs"]
+	path = vendor/yoctolib_cs
+	url = https://github.com/yoctopuce/yoctolib_cs
