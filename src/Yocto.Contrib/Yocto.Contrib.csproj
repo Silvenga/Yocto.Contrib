@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <Authors>Silvenga</Authors>
+    <Description>Provides .Net Standard packaging for Yoctopuce libraries. This includes the native library and the provided source code to access it (e.g. YSensor, YLightSensor, etc.).</Description>
+    <PackageProjectUrl>https://github.com/Silvenga/Yocto.Contrib</PackageProjectUrl>
+    <PackageTags></PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
   </PropertyGroup>
 
   <ItemGroup>
