@@ -6,7 +6,19 @@ namespace Yocto.Contrib.Sample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string errmsg = "";
+
+
+            // Get access to your device, connected locally on USB for instance
+            YAPI.RegisterHub("usb", ref errmsg);
+            var a = YLightSensor.FirstLightSensor();
+
+            // Hot-plug is easy: just check that the device is online
+            if (a.isOnline())
+            {
+                var b = a.get_currentValue();
+                
+            }
         }
     }
 }
