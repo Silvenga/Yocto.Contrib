@@ -76,12 +76,17 @@
     <!--https://github.com/dotnet/corefx/blob/master/pkg/Microsoft.NETCore.Platforms/runtime.json-->
 
     <None Include="../../vendor/yoctolib_cs/Sources/dll/amd64/yapi.dll" Pack="true" PackagePath="runtimes/win-x64/native/yapi.dll" />
+    <None Include="../../vendor/yoctolib_cs/Sources/dll/amd64/yapi.dll" Pack="true" PackagePath="runtimes/win-x64/native/amd64/yapi.dll" />
     <None Include="../../vendor/yoctolib_cs/Sources/dll/yapi.dll" Pack="true" PackagePath="runtimes/win-x86/native/yapi.dll" />
+    <None Include="../../vendor/yoctolib_cs/Sources/dll/yapi.dll" Pack="true" PackagePath="runtimes/win-x86/native/amd64/yapi.dll" />
 
     <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi.dylib" Pack="true" PackagePath="runtimes/osx/native/yapi.dylib" />
+    <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi.dylib" Pack="true" PackagePath="runtimes/osx/native/amd64/yapi.dylib" />
 
     <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi-amd64.so" Pack="true" PackagePath="runtimes/linux-x64/native/yapi.so" />
+    <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi-amd64.so" Pack="true" PackagePath="runtimes/linux-x64/native/amd64/yapi.so" />
     <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi-i386.so" Pack="true" PackagePath="runtimes/linux-x86/native/yapi.so" />
+    <None Include="../../vendor/yoctolib_python/Sources/cdll/libyapi-i386.so" Pack="true" PackagePath="runtimes/linux-x86/native/amd64/yapi.so" />
 
   </ItemGroup>
 
