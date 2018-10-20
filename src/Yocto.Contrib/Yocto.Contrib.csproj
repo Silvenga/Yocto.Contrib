@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Silvenga</Authors>
     <Description>Provides .Net Standard packaging for Yoctopuce libraries. This includes the native library and the provided source code to access it (e.g. YSensor, YLightSensor, etc.).</Description>
     <PackageProjectUrl>https://github.com/Silvenga/Yocto.Contrib</PackageProjectUrl>
@@ -17,7 +17,6 @@
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_audioin.cs" Link="yocto_audioin.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_audioout.cs" Link="yocto_audioout.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_bluetoothlink.cs" Link="yocto_bluetoothlink.cs" />
-    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_bridgecontrol.cs" Link="yocto_bridgecontrol.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_buzzer.cs" Link="yocto_buzzer.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_carbondioxide.cs" Link="yocto_carbondioxide.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_cellular.cs" Link="yocto_cellular.cs" />
@@ -46,10 +45,12 @@
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_messagebox.cs" Link="yocto_messagebox.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_motor.cs" Link="yocto_motor.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_multiaxiscontroller.cs" Link="yocto_multiaxiscontroller.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_multicellweighscale.cs" Link="yocto_multicellweighscale.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_network.cs" Link="yocto_network.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_oscontrol.cs" Link="yocto_oscontrol.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_power.cs" Link="yocto_power.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_poweroutput.cs" Link="yocto_poweroutput.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_powersupply.cs" Link="yocto_powersupply.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_pressure.cs" Link="yocto_pressure.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_proximity.cs" Link="yocto_proximity.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_pwminput.cs" Link="yocto_pwminput.cs" />
@@ -69,9 +70,11 @@
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_tilt.cs" Link="yocto_tilt.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_voc.cs" Link="yocto_voc.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_voltage.cs" Link="yocto_voltage.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_voltageoutput.cs" Link="yocto_voltageoutput.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_wakeupmonitor.cs" Link="yocto_wakeupmonitor.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_wakeupschedule.cs" Link="yocto_wakeupschedule.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_watchdog.cs" Link="yocto_watchdog.cs" />
+    <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_weighscale.cs" Link="yocto_weighscale.cs" />
     <Compile Include="..\..\vendor\yoctolib_cs\Sources\yocto_wireless.cs" Link="yocto_wireless.cs" />
   </ItemGroup>
 
@@ -91,11 +94,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Collections" Version="4.3.0" />
-    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
-    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
-    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
-    <PackageReference Include="System.Threading.Thread" Version="4.3.0" />
   </ItemGroup>
 
 </Project>
